@@ -5,5 +5,6 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     game.splash("A Was Pressed!!")
 })
 scene.setBackgroundColor(2)
-let test = messaging.createMessage("test")
+let test = messaging.createMessage("avishay was here")
+scene.setBackgroundColor(9)
 game.splash(test.getText())
